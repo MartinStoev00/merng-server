@@ -1,0 +1,8 @@
+POST https://ancient-ridge-94832.herokuapp.com/   
+
+query {
+  getPosts {
+    body
+    createdAt
+  }
+}
