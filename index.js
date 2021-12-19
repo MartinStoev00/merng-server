@@ -5,7 +5,7 @@ const resolvers = require("./graphql/resolvers");
 const mongo_uri =
   "mongodb+srv://root:root@cluster0.vu3n0.mongodb.net/GraphQL?retryWrites=true&w=majority";
 
-const PORT = process.env.port || 5000;
+const PORT = process.env.PORT || 5000;
 
 mongoose.connect(mongo_uri, {
   useNewUrlParser: true,
